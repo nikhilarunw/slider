@@ -1,10 +1,10 @@
 import Slider from './Slider';
-import Range from './Range';
-import Handle from './Handle';
-import createSliderWithTooltip from './createSliderWithTooltip';
+import Range1 from './Range';
+import Handle1 from './Handle';
+import createSliderWithTooltip1 from './createSliderWithTooltip';
 
-Slider.Range = Range;
-Slider.Handle = Handle;
-Slider.createSliderWithTooltip = createSliderWithTooltip;
+export const Range = Range1;
+export const Handle = Handle1;
+export const createSliderWithTooltip = createSliderWithTooltip1;
+
 export default Slider;
-export { Range, Handle, createSliderWithTooltip };
